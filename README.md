@@ -83,6 +83,7 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 - ✅ Configuration du pare-feu (port 10050 agent, port 80 web)
 - ✅ Réseau interne dédié pour la communication agent/serveur
 
+<img width="1488" height="905" alt="Image" src="https://github.com/user-attachments/assets/9948a2bc-25be-4413-98a2-f60a8cbb1e49" />
 ---
 
 ## ✅ Configuration réalisée
@@ -94,6 +95,8 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 | Zabbix server | 127.0.0.1 | Linux by Zabbix agent + Zabbix server health | ✅ Actif |
 | SRV-LINUX | 192.168.1.30 | Linux by Zabbix agent | ✅ Actif |
 
+<img width="1490" height="905" alt="Image" src="https://github.com/user-attachments/assets/11460615-b4ed-43ce-bdc5-c047504facc6" />
+
 ### 📈 Dashboard Monitoring Lab
 
 Widgets configurés :
@@ -101,13 +104,19 @@ Widgets configurés :
 - 📊 Graphique **Memory utilization** — SRV-LINUX en temps réel
 - 🟢 **Statut des hôtes** — disponibilité en temps réel
 - 🔔 **Alertes actives** — problèmes en cours
+  
+  <img width="1919" height="1034" alt="Image" src="https://github.com/user-attachments/assets/34ea3537-7dea-4da3-afda-bb7b86d03187" />
 
 ### 🔔 Alertes configurées
+
+<img width="1408" height="918" alt="Image" src="https://github.com/user-attachments/assets/f48a7264-12bd-4ee6-a09f-38e7f5b9f54e" />
+<img width="1410" height="915" alt="Image" src="https://github.com/user-attachments/assets/1c6309df-6ab4-47e9-b480-4d0d869e52fe" />
 
 | Nom | Condition | Opération | État |
 |-----|-----------|-----------|------|
 | Hôte inaccessible | ICMP ping KO | Notification Admin | ✅ Activé |
 
+<img width="1475" height="917" alt="Image" src="https://github.com/user-attachments/assets/64de682f-adf5-4ace-a231-6c2815694489" />
 ---
 
 ## 🔧 Difficultés rencontrées et résolutions
@@ -129,7 +138,6 @@ Widgets configurés :
 - **Résolution** : configuration du réseau interne **labreseau** sur les deux VMs + mise à jour de l'IP dans la config agent (`192.168.1.30` → `192.168.1.40`)
 
 ---
-
 
 ## 📊 Compétences démontrées
 
